@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102092600598",
+    "project_id": "lvl-test-a108b",
+    "storage_bucket": "lvl-test-a108b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102092600598:android:930ec31951f50da6240c37",
+        "android_client_info": {
+          "package_name": "com.luisfe.lvl_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDofU5pYoamMP7QYUtwQ468ZguHm3m7BBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
