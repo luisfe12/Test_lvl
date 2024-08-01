@@ -53,7 +53,6 @@ fun LoginScreen(
         Image(
             painter = painterResource(id = R.drawable.splashimage),
             contentDescription = null,
-
             )
         Spacer(modifier = Modifier.height(10.dp))
         Text(text = "¡Te damos la bienvenida!", fontSize = 25.sp, fontWeight = FontWeight.Bold)
