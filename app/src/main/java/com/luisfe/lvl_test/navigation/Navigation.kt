@@ -10,6 +10,7 @@ import androidx.navigation.compose.composable
 import com.luisfe.lvl_test.ui.home.HomeScreen
 import com.luisfe.lvl_test.ui.login.LoginScreen
 import com.luisfe.lvl_test.ui.newitem.CreateNewProjectScreen
+import com.luisfe.lvl_test.ui.peofilephoto.ProfilePhotoScreen
 import com.luisfe.lvl_test.ui.profile.ProfieleScreen
 import com.luisfe.lvl_test.ui.signup.SignUpScreen
 import com.luisfe.lvl_test.ui.splash.SplashScreen
@@ -49,7 +50,7 @@ fun ContentWrapper(
         }
 
         composable(route = Routes.ProfilePhoto.routes){
-            CreateNewProjectScreen(navController = navController)
+            ProfilePhotoScreen(navController = navController, activity = activity)
         }
     }
 }
